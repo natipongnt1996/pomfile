@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+<body>
+    <!-- 1 Logo -->
+    <header class="header">
+        <a href="#home" class="logo">Portfolio</a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar" class="active">
+            <a href="#home" style="--i: 1">หน้าแรก</a>
+            <a href="#about" style="--i: 2">เกี่ยวกับ</a>
+            <a href="#education" style="--i: 3">ประวัติการศึกษา</a>
+            <a href="#exprience" style="--i: 4">ประสบการณ์</a>
+            <a href="#skills" style="--i: 5">ผลงาน</a>
+            <a href="#contact" style="--i: 6">ติดต่อ</a>
+        </nav>
+    </header>
+
+    <!-- 2  Home -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1><span class="names">สวัสดีครับ</span></h1>
+            <h3>ผมเป็น <span class="text"></span></h3>
+            <p>ชื่อจริง : <span>นายเนติพงศ์</span> นามสกุล :<span> บัวเพ็ชร</span></p>
+            <p>ชื่อเล่น : <span>ป้อม</span></p>
+            <p>อายุ : <span>30</span> ปี</p>
+            <p>วันเกิด : <span>24 เดือนพฤษภาคม พ.ศ.2539</span></p>
+            <p>ที่อยู่ปัจจุบัน : <span>จังหวัดเชียงใหม่</span></p>
+            <p>อิเมล์ : <span>natipong.nt1996@gmail.com</span></p>
+            <p>ปัจจุบัน : ผมเป็นนักศึกษาชั้นปวช.3 ณ ศูนย์พัฒนาศักยภาพหยาดฝนจังหวัดเชียงใหม่</p>
+            <div class="home-social-icons">
+                <a href="https://www.facebook.com/pom.netipong/" style="--i: 7"><i
+                        class="bx bxl-facebook-square"></i></a>
+                <a href="https://www.instagram.com/wasupom.love_/" style="--i: 8"><i class="bx bxl-instagram"></i></a>
+                <a href="https://github.com/Pomdigiserve" style="--i: 9"><i class="bx bxl-github"></i></a>
+            </div>
+            <div class="home-btn-group">
+                <a href="#about" class="btn-box">เพิ่มเติม...</a>
+                <a href="#contact" class="btn-box">ติดต่อ</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="./images/3.jpg" alt="pom-profile">
+        </div>
+    </section>
+
+    <!-- 3 About -->
+    <section class="about" id="about">
+        <div class="about-img home-img">
+            <img src="./images/7.jpg" alt="pom-about">
+        </div>
+        <div class="about-text" style="--i: 10">
+            <h2>เกี่ยวกับ<span>ผม</span></h2>
+            <h4 style="--i: 11">นักพัฒนาเว็บไซต์</h4>
+            <p style="--i: 12">
+                ผมชื่อป้อมเป็นนักพัฒนาเว็บไซต์ที่หลงใหลในการสร้างสรรค์ประสบการณ์ดิจิทัลที่น่าประทับใจ
+                ผมเชื่อว่าเว็บไซต์ที่ดีคือเว็บไซต์ที่สามารถสื่อสารกับผู้ใช้งานได้อย่างมีประสิทธิภาพ
+                ผมจึงใส่ใจในทุกขั้นตอนของการพัฒนาเว็บไซต์ ตั้งแต่การออกแบบ UI/UX ที่สวยงาม
+                ไปจนถึงการเขียนโค้ดที่เป็นระเบียบเรียบร้อย ผมชอบเรียนรู้เทคโนโลยีใหม่ๆ อยู่เสมอ
+                เพื่อนำมาพัฒนาเว็บไซต์ให้ทันสมัยอยู่ตลอดเวลา</p>
+            <a href="#" class="btn-box">เพิ่มเติม...</a>
+        </div>
+    </section>
+
+    <!-- 4 Education -->
+    <section class="education" id="education">
+        <h2 class="education-heading" style="--i: 13">ประวัติการศึกษา</h2>
+        <div class="timeline-items">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date" style="--i: 14"><i class="bx bxs-school"></i> 2011-2015</div>
+                <div class="timeline-content" style="--i: 17;background-color: #9eb133b0;"">
+                    <h3>โรงเรียนสตูลวิทยา</h3>
+                    <p>ชั้นมัธยมศึกษาปีที่ 3-6</p>
+                    <p>สาขาคณิตฯ-ศิลป์</p>
+                </div>
+            </div>
+
+            <div class=" timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date" style="--i: 15"><i class="bx bxs-school"></i> 2017-2020</div>
+                <div class="timeline-content" style="--i: 18;background-color: #33b133b0;">
+                    <h3>วิทยาลัยชุมชนสตูล</h3>
+                    <p>อนุปริญญาบริหารธุรกิจ 3 ปี</p>
+                    <p>สาขาคอมพิวเตอร์ธุรกิจ</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date" style="--i: 16"><i class="bx bxs-school"></i> 2022-ปัจจุบัน</div>
+                <div class="timeline-list">
+                    <div class="timeline-content" style="--i: 19;background-color: #33b191b0;">
+                        <h3>ศูนย์พัฒนาศักยภาพหยาดฝนจังหวัดเชียงใหม่</h3>
+                        <p>สาขาเทคโนโลยีสารสนเทศ ปัจจุบันระดับชั้นปวชปีที่ 2</p>
+                        <p>สามารถเรียนออนไลน์และทำงานตามปกติได้</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 5 Exprience -->
+    <section class="exprience" id="exprience">
+        <h2 class="exprience-heading" style="--i: 20">ประสบการณ์</h2>
+        <div class="exprience-container">
+
+            <div class="exprience-box">
+                <div class="exprience-info" style="--i: 21">
+                    <h4>Website Developer</h4>
+                    <p>- พัฒนาเว็บไซต์ e-commerce, portfolio, blog ด้วย HTML,CSS และ JavaScript โดยเน้นการออกแบบ User
+                        Interface ที่สวยงาม ใช้งานง่ายและตอบสนองต่อทุกอุปกรณ์
+                    </p>
+                </div>
+            </div>
+
+            <div class="exprience-box">
+                <div class="exprience-info" style="--i: 22">
+                    <h4>UI/UX Designer</h4>
+                    <p>- ร่วมงานกับทีมในการพัฒนาเว็บไซต์ขายสินค้าให้แก่โครงการคริสเตียนในจังหวัดเชียงใหม่ ที่ชื่อว่า
+                        illumin8 ตั้งแต่ขั้นตอนการวางแผน ไปจนถึงการเปิดตัว โดยมีส่วนร่วมในการออกแบบ UX/UI
+                        ของหน้าเว็บไซต์และเขียนโค้ดส่วนของ Frontend
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <!-- 6 Skill -->
+    <section class="skills" id="skills">
+        <h2 class="skills-heading" style="--i: 23"><span>ผลงาน</span></h2>
+        <p class="skills-message" style="--i: 24">- พัฒนาเว็บไซต์ขายสินค้าออนไลนให้แก่ illumin8 ซึ่งเป็นโครงการคริสเตียนแห่งหนึ่งในจังหวัดเชียงใหม่โดยใช้ HTML, CSS และ JavaScript ซึ่งสามารถจัดการสินค้าเพิ่มยอดขายได้ 50% ภายใน 6 เดือน</p>
+        <p class="skills-message" style="--i: 25">- สร้างเว็บไซต์ส่วนตัว เพื่อบันทึกเรื่องราวส่วนตัวหรือ ใช้เป็นพื้นที่ในการบันทึกเรื่องราวประสบการณ์ และต้องการสร้างชื่อเสียงรวมทั้งโอกาสในอาชีพการงานตลอดจน เพื่อฝึกฝนทักษะและทดลองแนวคิดใหม่ๆ</p>
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">ทักษะการเขียนโปรแกรม (Coding Skills)</h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <i class="bx bxl-html5" style="color: orangered;"></i>
+                            <h3>HTML <span>95%</span></h3>
+                            <div class="bar"><span class="html"></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <i class="bx bxl-css3" style="color: #4545f8;"></i>
+                            <h3>CSS <span>80%</span></h3>
+                            <div class="bar"><span class="css"></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <i class="bx bxl-javascript" style="color: gold;"></i>
+                            <h3>JavaScript <span>75%</span></h3>
+                            <div class="bar"><span class="javascript"></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <i class="bx bxl-python" style="color: aqua;"></i>
+                            <h3>Python <span>60%</span></h3>
+                            <div class="bar"><span class="python"></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-column">
+                <h3 class="title">ทักษะการปฏิบัติเชิงวิชาชีพ (Professional Skills)</h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Web Designer <span>85%</span></h3>
+                            <div class="bar"><span class="designer"></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Web Developer <span>90%</span></h3>
+                            <div class="bar"><span class="developer"></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Graphic Design <span>70%</span></h3>
+                            <div class="bar"><span class="graphic"></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>UI/UX Design <span>55%</span></h3>
+                            <div class="bar"><span class="ui-ux"></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 7 Contact -->
+    <section class="contact" id="contact">
+        <h2 class="contact-heading" style="--i: 26">ติดต่อกับ<span>ฉัน</span></h2>
+
+        <form onsubmit="emailSend(); reset(); return false;"/>
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" id="name" name="name" placeholder="ชื่อเต็ม-นามสกุล" required>
+                    <input type="email" id="email" name="email" placeholder="กรอกอีเมล" required>
+                </div>
+                <div class="input-box">
+                    <input type="number" id="number" name="number" placeholder="เบอร์โทรศัพท์" required>
+                    <input type="text" id="subject" name="subject" placeholder="หัวข้อเรื่อง" required>
+                </div>
+            </div>
+
+            <div class="input-group-2">
+                <textarea name="#" id="#" cols="30" rows="10" placeholder="กรอกข้อความ"></textarea>
+                <input type="submit" value="ส่งข้อความ" class="btn-box">
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.facebook.com/pom.netipong/" style="--i: 7"><i class="bx bxl-facebook-square"></i></a>
+            <a href="https://www.instagram.com/wasupom.love_/" style="--i: 8"><i class="bx bxl-instagram"></i></a>
+            <a href="https://github.com/Pomdigiserve" style="--i: 9"><i class="bx bxl-github"></i></a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#">ผลงาน (Skills)</a>
+            </li>
+            <li>
+                <a href="#">เกี่ยวกับฉัน (About Me)</a>
+            </li>
+            <li>
+                <a href="#">ติดต่อ (Contact)</a>
+            </li>
+        </ul>
+
+        <p class="copyright">
+            Developer by Mr.Netiphongs buabhechr | All Reserved
+        </p>
+    </footer>
+
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>
